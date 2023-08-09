@@ -177,3 +177,13 @@ footer{
     margin-top: 35px;
 
 }
+
+@media(min-width: 1024px) {
+ main {
+    flex-direction: row;
+ }
+ h1 {
+    font-size: 42px;
+ }
+}
+    
