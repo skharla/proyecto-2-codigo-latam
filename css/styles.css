@@ -56,15 +56,29 @@ header{
     justify-content: space-between;
     height: 90px;
     align-items: center;
-    padding: 10px;
-    flex-direction: row;
+    padding: 16px;
     box-shadow: 1px 0px 20px rgb(150, 148, 148);
-    font-size: 30px;
-    text-align: center;
+    font-size: 20px;
     width: 100%;
+    background-color: #fbfbfb;
+    position: fixed;
+    top: 0;
+    left: 0;
     
 
+}
 
+.logo{
+    width: 120px;
+}
+ul#menu{
+    display: flex;
+    font-size: 20px;
+}
+
+li.menu-item a {
+    padding: 16px;
+    display: inline-block;
 }
 
 .logo img{
@@ -75,7 +89,7 @@ header{
     border-radius: 50%;
     width: 400px;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 h1{
@@ -170,7 +184,7 @@ footer{
     text-align: left;
     width: 80%;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
  }
  h1 {
     font-size: 48px;
@@ -179,7 +193,7 @@ footer{
 
  section#Contactos {
     flex-direction: row;
-
+    width: 90%;
  }
  h2 {
     font-size: 32px;
