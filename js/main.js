@@ -7,3 +7,10 @@ menuItems.forEach(function(item){
         e.target.classList.add('active');
     });
 });
+
+const cambioBtn =document.querySelector('#cambiarFuente');
+
+cambioBtn.addEventListener('click', function(){
+    document.body.classList.toggle('cambio-fuente');
+});
+    

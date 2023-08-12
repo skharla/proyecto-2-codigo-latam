@@ -7,10 +7,12 @@ body{
     font-family: 'Lato', sans-serif;
     background-color: #fbfbfb;
     font-size: 18px;
-    
-
 }
 
+body.cambio-fuente {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8b58e;
+}
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -102,6 +104,11 @@ h1{
     font-size: 36px;
 }
 
+h1:hover{
+    background-color: #fca1c7;
+    color: #fbfbfb;
+    border-radius: 50px;
+}
 
 
 .boton{
@@ -119,7 +126,7 @@ h1{
 }
 
 .boton:hover{
-    background-color: aqua;
+    background-color: rgb(247, 243, 8);
     color: #080808;
 }
 
@@ -137,7 +144,7 @@ p{
 
 .Hablemos{
     text-align: center;
-    background-color: #f33786;
+    background-color: #fca1c7;
     margin-bottom: 60px;
     height: auto;
     width: 97%;
